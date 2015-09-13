@@ -5,8 +5,10 @@
     <title>Document</title>
 </head>
 <body>
+<main>
 <h1>Opleiding</h1>
 
+<section>
 <h2>CMD Amsterdam</h2>
 <p>De opleiding Communication & Multimedia Design (CMD) Amsterdam leert studenten alles
 over het ontwerpen van online interactieve media. Dit betekent het begrijpen, bedenken en
@@ -28,7 +30,9 @@ de interactieve media ontwerper zich begeeft is sterk in ontwikkeling. De opleid
 hier met een flexibel curriculum rekening mee en door met (keuze)vakken en projecten in
 te springen op nieuwe ontwikkelingen.
 </p>
+</section>
 
+<section>
 <h2>Ontwerp opleiding voor Interactieve Media</h2>
 <p><em>CMD Amsterdam stelt ontwerpen centraal in de opleiding. Zij wil studenten leren te denken
 als een ontwerper en opleiden tot interactieve media ontwerpers met een goede
@@ -60,7 +64,9 @@ studenten, naast een kernprogramma, een set profileringsvakken kiezen. Hiermee k
 ze zich in meer of mindere mate richten op een van de vijf beroepen waar de opleiding
 voor opleidt.
 </p>
+</section>
 
+<section>
 <h2>Studieprogramma</h2>
 <p>Het studieprogramma is ingedeeld in drie fasen: propedeusefase, hoofdfase en de
 afstudeerfase. De propedeusefase is voor alle studenten gelijk - je maakt kennis met het
@@ -74,7 +80,9 @@ naar hebt gedaan. Dit kan uit eigen beweging of bij een bedrijf.
 
 <p><a href="#">Opbouw studieprogramma [link: opbouw studieprogramma]</a>
 </p>
+</section>
 
+<section>
 <h2>Beroepen</h2>
 <h3>Waar leiden we voor op?</h3>
 <img src="beroepen.png" alt=" beroepen" title="Beroepen waar we voor opleiden." />
@@ -90,13 +98,19 @@ Contentmanager en Interaction Designer. Variaties hierop zijn natuurlijk mogelij
 Mocht je als aankomend student meer willen weten of contact op willen nemen met een
 afgestudeerde studenten? Neem contact [link: contact] met ons op.
 </p>
+</section>
 
+<section>
 <h2>Uitstroomberoepen:</h2>
-<p>1. <a href="#">Frontend developer</a></p>
-<p>2. <a href="#">Visual designer</a></p>
-<p>3. <a href="#">Interaction designer</a></p>
-<p>4. <a href="#">Content manager</a></p>
-<p>5. <a href="#">Project manager</a></p>
+<ol>
+<li><a href="#">Frontend developer</a></li>
+<li><a href="#">Visual designer</a></li>
+<li><a href="#">Interaction designer</a></li>
+<li><a href="#">Content manager</a></li>
+<li><a href="#">Project manager</a></li>
+</ol>
+</section>
 
+</main>
 </body>
 </html>
