@@ -5,6 +5,7 @@
     <title>formulier</title>
 </head>
 <body>
+<main>
  <h1>Aanmelden</h1>
 
 <p>Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
@@ -23,36 +24,35 @@ Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.
 
 <h2>Contactgegevens</h2>
 
+<form action="file:///C:/Users/Nafiesa/Documents/Nafiesa%20Biharie/Documents/Frontend%20Development/Formulierpagina.html">
 <fieldset>
     <legend>Personalia:</legend>
     <label>Naam:<br />
-        <input type="text" name="naam" /></label><br />
-    <label>Bedrijf:<br />
-        <input type="text" name="bedrijf" /></label><br />
-    <label>Adres:<br />
-        <input type="text" name="adres" /></label><br />
-    <label>Postcode:<br />
-        <input type="text" name="postcode" /></label><br />
-    <label>Plaats:<br />
-        <input type="text" name="plaats" /></label><br />
-    <label>Telefoon:<br />
-        <input type="text" name="telefoon" /></label><br />
-    <label>Email:<br />
-        <input type="text" name="email" /></label><br />
+        <input type="text" name="naam" /></label>
+    <label>Bedrijf:
+        <input type="text" name="bedrijf" /></label>
+    <label>Adres:
+        <input type="text" name="adres" /></label>
+    <label>Postcode:
+        <input type="text" name="postcode" /></label>
+    <label>Plaats:
+        <input type="text" name="plaats" /></label>
+    <label>Telefoon:
+        <input type="text" name="telefoon" /></label>
+    <label>Email:
+        <input type="text" name="email" /></label>
 </fieldset>
 
-<form action="file:///C:/Users/Nafiesa/Documents/Nafiesa%20Biharie/Documents/Frontend%20Development/Formulierpagina.html">
    <fieldset>
     <legend>Ik wil mijn aanmelden:</legend>
         <input type="radio" name="aanmelding" />Voor een project
         <input type="radio" name="aanmelding" />Als stagebedrijf
    </fieldset>
-</form>
 
 <fieldset>
 <legend>Project Stage</legend>
-<label>1. Titel<br />
-    <input type="text" name="titel" /></label><br />
+<label>1. Titel
+    <input type="text" name="titel" /></label>
     <p>2. Opdrachtomschrijving</p>
     <textarea name="opdrachtomschrijving" cols="20" rows="4"></textarea>
     <p>3. Doelgroepomschrijving</p>
@@ -81,8 +81,7 @@ Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.
     <input type="radio" name="student"> 5. onbekend
 </fieldset>
 
-<form action="file:///C:/Users/Nafiesa/Documents/Nafiesa%20Biharie/Documents/Frontend%20Development/Formulierpagina.html">
-    <fieldset>
+<fieldset>
     <legend>1. Hoe lang is de stage?</legend>
         <input type="radio" name="weken">10 weken
         <input type="radio" name="weken">20 weken
@@ -90,31 +89,27 @@ Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.
     <p>2. Begin datum</p>
         <input type="date" name="begin" />
 </fieldset>
-</form>
 
-<form action="file:///C:/Users/Nafiesa/Documents/Nafiesa%20Biharie/Documents/Frontend%20Development/Formulierpagina.html">
 <fieldset>
     <legend>Beschrijving werkzaamheden:</legend>
     <p>1. Beschrijving stagewerkzaamheden</p>
     <textarea name="beschrijving" cols="20" rows="4"></textarea>
 
     <p>2. Beschrijving stagebedrijf</p>
-    <label>1. Bedrijfsnaam<br />
-        <input type="text"/></label><br />
-    <label>2. Adres<br />
-        <input type="text"/></label><br />
-    <label>3. postcode<br />
-        <input type="text"/></label><br />
-    <label>4. Plaats<br />
-        <input type="text"/></label><br />
-    <label>5. Sector<br />
-        <input type="text"/></label><br />
-    <label>6. Core Business<br />
-        <input type="text"/></label><br />
+    <label>1. Bedrijfsnaam
+        <input type="text"/></label>
+    <label>2. Adres
+        <input type="text"/></label>
+    <label>3. postcode
+        <input type="text"/></label>
+    <label>4. Plaats
+        <input type="text"/></label>
+    <label>5. Sector
+        <input type="text"/></label>
+    <label>6. Core Business
+        <input type="text"/></label>
 </fieldset>
-</form>
 
-<form action="file:///C:/Users/Nafiesa/Documents/Nafiesa%20Biharie/Documents/Frontend%20Development/Formulierpagina.html">
     <fieldset>
     <legend>Opmerkingen</legend>
     <p>Opmerkingen over het project</p>
@@ -123,7 +118,8 @@ Voor vragen of opmerkingen kunt u <a href="#">contact</a> met ons opnemen.
     <p>Opmerkingen over de stage</p>
     <textarea name="opmerkingen" cols="20" rows="4"></textarea>
     </fieldset>
-</form>
 
+</form>
+</main>
 </body>
 </html>
